@@ -21,8 +21,9 @@ Templete aplicação Laravel
 -   **Redis** — imagem redis:alpine
 -   **Nginx** — 1.15.0-alpine
 -   **Docker Composer** — 3
+<br>
 
-### Como usar
+## Como usar
 
 1 - Faça o clone do projeto
 2 - Dentro da pasta rode o comando `docker-compose up -d` para subir o ambiente
@@ -34,10 +35,14 @@ Templete aplicação Laravel
 -   `php artisan key:generate `
 -   `php artisan migrate`
 
-### Imagem no Docker Hub
+<br>
+
+## Imagem no Docker Hub
 
 -   https://hub.docker.com/r/ramonmello/laravel
 
-### License
+<br>
+
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
