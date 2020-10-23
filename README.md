@@ -20,7 +20,7 @@ Templete aplicação Laravel
 -   **Mysql** — 5.7
 -   **Redis** — imagem redis:alpine
 -   **Nginx** — 1.15.0-alpine
--   **Docker Composer** — 2.3
+-   **Docker Composer** — 3
 
 ### Como usar
 
