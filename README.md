@@ -26,6 +26,7 @@ Templete aplicação Laravel
 ## Como usar
 
 1 - Faça o clone do projeto
+
 2 - Dentro da pasta do projeto execute o comando `docker-compose up -d` para subir o ambiente
 
 <br>
