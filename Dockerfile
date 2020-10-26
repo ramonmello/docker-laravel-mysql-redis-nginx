@@ -13,7 +13,9 @@ RUN rm -rf /var/www/html
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
-# COPY . /var/www
+COPY . /var/www
+# RUN composer install
+
 RUN chown -R www-data:www-data /var/www
 
 RUN ln -s public html
