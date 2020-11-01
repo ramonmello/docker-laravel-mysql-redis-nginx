@@ -26,14 +26,8 @@ Templete aplicação Laravel
 ## Como usar
 
 1 - Faça o clone do projeto
-2 - Dentro da pasta rode o comando `docker-compose up -d` para subir o ambiente
-3 - Execute o comando `docker exec -u root -it app bash` para entrar no container do App
-4 - Execute os comando abaixo para finalizar a configuração do Laravel:
 
--   `composer install`
--   crie o arquivo .env baseado no .env.example
--   `php artisan key:generate `
--   `php artisan migrate`
+2 - Dentro da pasta do projeto execute o comando `docker-compose up -d` para subir o ambiente
 
 <br>
 
